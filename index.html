@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header_post.css">
+    <link rel="stylesheet" href="./styles/content_post.css">
+    <link rel="stylesheet" href="./styles/reacts.css">
+    <link rel="stylesheet" href="./styles/comments.css">
+    <link rel="stylesheet" href="./styles/header.css">
+
+
+    <script src="./app/app.js" defer></script>
+    <script src="./app/events.js" defer></script>
+    <script src="./app/content.js" defer></script>
+    <script src="./app/header.js" defer></script>
+    <script src="./app/comments.js" defer></script>
+
+
+
+    <title>system posts</title>
+</head>
+<body>
+    
+
+
+<!-- <header>
+   
+    <button class="create_post">
+        create post
+    </button>
+
+
+    <div class="pop_create_post">
+
+        <div class="text">
+            <textarea placeholder="enter your text post..">dfhjlhjdfh</textarea>
+        </div>
+
+        <div class="img_up_done">
+
+        </div>
+        <div class="btn_upload">
+            <label for="upimg">up load my img</label>
+            <input type="file" name="img" id="upimg">
+        </div>
+
+    </div>
+
+
+
+</header>
+ -->
+
+
+<div class="show_img">
+    <div class="close_pop">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+    </div>
+    
+
+    <div class="img">
+        <img src="./assets/image/04564.jpg" class="slide_img">
+    </div>
+
+</div>
+
+
+
+<div class="post">
+    <div class="content_post">
+
+        <div class="head_post">
+            <div class="img">
+                <img src="./assets/image/04564.jpg" alt="">
+            </div>
+            <div class="username">
+                <span>div.luffy</span>
+            </div>
+            <div class="options">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+            </div>
+        </div>
+
+
+        <!-- content the post text or photos -->
+        <div class="main"></div>
+
+        <!-- reacyt with post -->
+        <div class="events">
+
+            <div class="react like show" onmouseup="">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none" opacity=".87"/><path d="M21 8h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2zm0 4l-3 7H9V9l4.34-4.34L12.23 10H21v2zM1 9h4v12H1z"/></svg>
+                <span>Like</span>
+            </div>
+
+            
+            <div class="pop_react">
+                <div class="reaction like">
+                    <img src="./assets/svg/like.svg" alt="">
+                </div>
+                <div class="reaction love">
+                    <img src="./assets/svg/love.svg" alt="">
+                </div>
+    
+                <div class="reaction support">
+                    <img src="./assets/svg/supprt.svg" alt="">
+                </div>
+    
+                <div class="reaction fun">
+                    <img src="./assets/svg/fun.svg" alt="">
+    
+                </div>
+                <div class="reaction amz">
+                    <img src="./assets/svg/wow.svg" alt="">
+                </div>
+                <div class="reaction sad">
+                    <img src="./assets/svg/sad.svg" alt="">
+                </div>
+                <div class="reaction angry">
+                    <img src="./assets/svg/angry.svg" alt="">
+                </div>
+            </div>
+
+            <div class="react comment">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z"/></svg>
+                <span>comment</span>
+                
+            </div>
+
+            <div class="react share">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z"/></svg>
+                <span>share</span>
+                
+            </div>
+
+
+
+        </div>
+
+
+        <!-- add comments -->
+        <div class="comments">
+
+            <div class="current_comment"></div>
+
+        </div>
+
+
+        <!-- for add new comments -->
+        <div class="add_comment">
+            <div class="comment bumber_comment">
+                <div class="img_user">
+                    <img src="./assets/image/@luffy.imij.jpg" alt="">
+                </div>
+    
+    
+                <div class="content_comment">
+                    <textarea class="textareaT"  placeholder="comment.."></textarea>
+                </div>
+    
+                <div class="comment_help">
+                    <div class="add_emoji">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M12 16c-1.48 0-2.75-.81-3.45-2H6.88c.8 2.05 2.79 3.5 5.12 3.5s4.32-1.45 5.12-3.5h-1.67c-.69 1.19-1.97 2-3.45 2zm-.01-14C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg>
+                    </div>
+    
+                    <div class="up_img_com">
+                        <label for="up_img_file" >
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4.86 8.86l-3 3.87L9 13.14 6 17h12l-3.86-5.14z"/></svg>
+                        </label>
+                        <input type="file" id="up_img_file">
+                    </div>
+    
+    
+                    <div class="send">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 472.615 472.615" style="enable-background:new 0 0 472.615 472.615;" xml:space="preserve"><g><g><path d="M471.197,70.93c-0.284-0.378-0.474-0.757-0.756-1.039c-2.648-3.215-6.996-4.255-10.778-2.741L6.088,239.77c-3.97,1.511-6.428,5.389-6.049,9.64c0.284,4.161,3.403,7.657,7.562,8.415l124.029,24.106l26.565,116.184l0.094,0.663c0.189,0.754,0.378,1.417,0.756,2.077c0.189,0.379,0.473,0.852,0.756,1.231c0.378,0.567,0.851,1.041,1.229,1.511c1.229,1.135,2.741,1.985,4.348,2.271c0.19,0.093,0.473,0.187,0.663,0.187c0.473,0,1.04,0.095,1.512,0.095c0.662,0,1.229-0.095,1.89-0.189c0.284-0.093,0.567-0.093,0.945-0.282c0.095,0,0.189,0,0.284-0.096c0.567-0.189,1.04-0.376,1.513-0.661h0.095c0.188-0.189,0.473-0.284,0.661-0.473l130.079-91.414l73.548,13.896c0.567,0.095,1.23,0.095,1.797,0.095c3.97,0,7.562-2.458,8.886-6.239l84.797-241.538c0.189-0.471,0.284-0.944,0.378-1.417c0.189-0.661,0.189-1.417,0.189-2.08C472.615,74.05,472.143,72.347,471.197,70.93z M224.085,282.783c-0.567,0.471-1.134,1.133-1.419,1.796c-0.188,0.095-0.283,0.189-0.377,0.378l-50.86,86.404l-21.175-92.928l235.012-143.786L224.085,282.783z"/></g></g></svg>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

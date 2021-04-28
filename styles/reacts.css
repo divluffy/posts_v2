@@ -1,0 +1,76 @@
+.content_post .events {
+  width: 100%;
+  background: rgb(224, 223, 223);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 7px;
+  height: 50px;
+  border-top: 1px solid rgb(150, 143, 143);
+  border-bottom: 1px solid rgb(150, 143, 143);
+  position: relative;
+}
+
+.events .react {
+  width: 120px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  padding: 9px;
+  justify-content: center;
+}
+
+.events .comment,
+.events .share,
+.events .like {
+  color: rgb(29, 27, 27);
+  border-radius: 5px;
+  background: rgb(196, 194, 194);
+  width: 30%;
+}
+
+.events .comment:hover,
+.events .share:hover,
+.events .like:hover {
+  color: rgb(96, 97, 96);
+  background: rgb(177, 175, 175);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+.events .react img {
+  width: 35px;
+  cursor: pointer;
+}
+
+.react svg {
+  fill: rgb(128, 129, 127);
+  margin-right: 5px;
+}
+
+.events .pop_react {
+  position: absolute;
+  top: -43px;
+  left: 3px;
+  background: rgb(255, 255, 255);
+  display: none;
+  padding: 2px;
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.events .pop_react.active {
+  display: flex;
+  opacity: 1;
+}
+.pop_react .reaction {
+  width: 35px;
+  margin: 3px;
+}
+
+.pop_react .reaction img {
+  width: 35px;
+  cursor: pointer;
+}

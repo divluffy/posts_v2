@@ -1,0 +1,221 @@
+
+.add_comment .comment {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+}
+
+.comment .img_user {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
+
+.comment .img_user img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.comment .content_comment {
+width: 92%;
+}
+
+.content_comment textarea {
+outline: none;
+width: 100%;
+overflow: hidden;
+font-size: 17px;
+color: rgb(85, 85, 85);
+resize: none;
+border: none;
+border-radius: 6px;
+padding: 12px  6px;
+line-height: 20px;
+
+height: 50px;
+}
+
+
+
+
+.comment .comment_help{
+  background: rgb(224, 226, 222,0.3);
+  position: absolute;
+  height: 40px;
+  display: flex;
+bottom: 10px;
+right: 10px;
+align-items: center;
+justify-content: flex-end;
+
+}
+
+
+
+.comment .up_img_com {
+  width: 40px;
+  height: 40px;
+  /* position: absolute; */
+  /* right: 60px; */
+  }
+  
+  
+  .up_img_com input{
+      display: none;
+  }
+  
+  .up_img_com label{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+  
+  }
+  
+  
+.up_img_com label svg{
+fill: rgb(131, 61, 131);
+width:  35px;
+height: 35px;
+
+}
+
+
+.comment .add_emoji{
+width: 40px;
+height: 40px;
+/* position: absolute; */
+/* right: 100px; */
+display: flex;
+align-items: center;
+cursor: pointer;
+
+}
+.add_emoji svg{
+fill: rgb(131, 61, 131);
+width:  35px;
+height: 35px;
+  
+
+}
+
+
+
+
+
+
+
+.comment .send {
+  /* margin: 0 10px; */
+  cursor: pointer;
+}
+.comment .send svg {
+  fill: rgb(29, 187, 42);
+  width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+------------------------------------------------
+*/
+.content_post .comments {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.comments .current_comment {
+  width: 100%;
+  background: cornflowerblue;
+}
+
+.current_comment .comment_add {
+  display: flex;
+  padding: 5px;
+  margin: 15px 0;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  background: rgb(85, 81, 77);
+}
+
+.comment_add .img_user {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+}
+.comment_add .img_user img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.comment_add .more_option {
+  position: absolute;
+  right: 5px;
+  top: 40%;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 3px 5px;
+}
+
+.comment_add .more_option:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: rgb(192, 192, 192);
+}
+
+.comment_add .msg_others {
+  margin-left: 7px;
+  width: 465px;
+  position: relative;
+  left: 55px;
+}
+
+.msg_others textarea {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  resize: none;
+  overflow: hidden;
+  color: rgb(29, 27, 27);
+  letter-spacing: 0.5px;
+  outline: none;
+  background: rgb(224, 220, 220);
+  line-height: 25px;
+  padding-left: 5px;
+
+}
+
+
+.msg_others img{
+  width: 100%;
+  cursor: pointer;
+}
